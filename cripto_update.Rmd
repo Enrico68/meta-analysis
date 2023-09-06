@@ -1,0 +1,53 @@
+---
+title: "Cripto_updated" 
+author: "Enrico Pirani" 
+datte: "2023-09-05"      
+output:
+  tufte::tufte_html: default
+  tufte::tufte_handout: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Passo 1: Importazione delle librerie necessarie
+
+In primo luogo, per eseguire il nostro processo di creazione di
+strategie di trading, dobbiamo importare le librerie necessarie nel
+nostro ambiente. In tutto questo processo, utilizzeremo alcune delle
+librerie finanziarie più popolari in R, ovvero Quantmod, TTR e
+Performance Analytics. Utilizzando la funzione library in R, possiamo
+importare i nostri pacchetti richiesti.
+
+```{r}
+library(quantmod)
+library(TTR)
+library(PerformanceAnalytics)
+```
+
+## Passaggio 2: Estrazione dei dati da Yahoo e Plotting di base
+
+Durante tutto il nostro processo, lavoreremo con i dati del prezzo delle
+cryptovalute Bitcoin, Ethereum, Binance, Cardano e XRP. Estraiamo i dati
+di queste valute da Yahoo in R.
+
+```{r}
+getSymbols("BTC-USD", src = "yahoo", from = "2019-01-01")
+getSymbols("ETH-USD", src = "yahoo", from = "2019-01-01")
+getSymbols("BNB-USD", src = "yahoo", from = "2019-01-01")
+getSymbols("ADA-USD", src = "yahoo", from = "2019-01-01")
+getSymbols("XRP-USD", src = "yahoo", from = "2019-01-01")
+```
+
+Ora facciamo un po' di visualizzazione dei nostri dati estratti! Il
+seguente codice produce un grafico a barre finanziario dei prezzi delle
+azioni insieme al volume.
+
+```{r}
+barChart(`BTC-USD`, theme = chartTheme('black'))
+barChart(`BNB-USD`,theme = chartTheme('black'))
+barChart(`ETH-USD`,theme = chartTheme('black'))
+barChart(`ADA-USD`,theme = chartTheme('black'))
+barChart(`XRP-USD`,theme = chartTheme('black'))
+```
