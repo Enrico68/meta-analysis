@@ -51,3 +51,85 @@ barChart(`ETH-USD`,theme = chartTheme('black'))
 barChart(`ADA-USD`,theme = chartTheme('black'))
 barChart(`XRP-USD`,theme = chartTheme('black'))
 ```
+## Creazione di indicatori tecnici
+
+Ci sono molti indicatori tecnici utilizzati per l'analisi finanziaria ma, per la nostra analisi, utilizzeremo e creeremo sei dei più famosi indicatori tecnici, ovvero: Media mobile semplice (SMA), Parabolic Stop And Reverse (SAR), Indice del canale delle materie prime (CCI), Tasso di variazione (ROC), Indice del momento stocastico (SMI) e infine Williams %R. Facciamolo!
+
+### Media mobile semplice (SMA):
+
+L'intervallo di tempo standard che prenderemo è di 20 giorni SMA e 50 giorni SMA. Ma non ci sono restrizioni nell'uso di qualsiasi intervallo di tempo.
+
+Il seguente codice calcolerà la SMA di tre aziende per 20 giorni e 50 giorni insieme ad un grafico:
+
+```{r}
+BTC <- `BTC-USD`
+ETH <- `ETH-USD`
+BNB <- `BNB-USD`
+ADA <- `ADA-USD`
+XRP <- `XRP-USD`
+```
+
+
+```{r}
+# 1. BTC-USD
+sma50_btc <- SMA(BTC$`BTC-USD.Close`, n = 50)
+sma100_btc <- SMA(BTC$`BTC-USD.Close`, n = 100)
+lineChart(`BTC-USD`, theme = chartTheme('black'))
+addSMA(n = 50, col = 'blue')
+addSMA(n = 100, col = 'orange')
+legend('left', col = c('green','blue','orange'),
+       legend = c('BTC-USD','SMA50','SMA100'), lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+```
+
+```{r}
+# 2. ETH-USD
+sma50_btc <- SMA(ETH$`ETH-USD.Close`, n = 50)
+sma100_btc <- SMA(ETH$`ETH-USD.Close`, n = 100)
+lineChart(`ETH-USD`, theme = chartTheme('black'))
+addSMA(n = 50, col = 'blue')
+addSMA(n = 100, col = 'orange')
+legend('left', col = c('green','blue','orange'),
+       legend = c('ETH-USD','SMA50','SMA100'), lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+```
+
+
+
+
+```{r}
+sma50_btc <- SMA(ADA$`ADA-USD.Close`, n = 50)
+sma100_btc <- SMA(ADA$`ADA-USD.Close`, n = 100)
+lineChart(`ADA-USD`, theme = chartTheme('black'))
+addSMA(n = 50, col = 'blue')
+addSMA(n = 100, col = 'orange')
+legend('left', col = c('green','blue','orange'),
+       legend = c('ADA-USD','SMA50','SMA100'), lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+```
+
+```{r}
+sma50_btc <- SMA(BNB$`BNB-USD.Close`, n = 50)
+sma100_btc <- SMA(BNB$`BNB-USD.Close`, n = 100)
+lineChart(`BNB-USD`, theme = chartTheme('black'))
+addSMA(n = 50, col = 'blue')
+addSMA(n = 100, col = 'orange')
+legend('left', col = c('green','blue','orange'),
+       legend = c('BNB-USD','SMA50','SMA100'), lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+```
+
+
+```{r}
+sma50_btc <- SMA(XRP$`XRP-USD.Close`, n = 50)
+sma100_btc <- SMA(XRP$`XRP-USD.Close`, n = 100)
+lineChart(`XRP-USD`, theme = chartTheme('black'))
+addSMA(n = 50, col = 'blue')
+addSMA(n = 100, col = 'orange')
+legend('left', col = c('green','blue','orange'),
+       legend = c('BNB-USD','SMA50','SMA100'), lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+```
+
+
+
