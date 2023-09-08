@@ -131,5 +131,8 @@ legend('left', col = c('green','blue','orange'),
        text.col = 'white', cex = 0.8)
 ```
 
+## Ora si vedono alcune modifiche 
+
+
 
 
