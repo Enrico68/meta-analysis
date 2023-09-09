@@ -132,7 +132,7 @@ legend('left', col = c('green','blue','orange'),
        text.col = 'white', cex = 0.8)
 ```
 
-## Indice del Canale delle Materie Prime (CCI):
+### Indice del Canale delle Materie Prime (CCI):
 
 Per calcolare il CCI, dobbiamo considerare i prezzi giornalieri di massimo, minimo e chiusura delle aziende insieme a un periodo di tempo specificato e un valore costante. In questo passaggio, prenderemo 20 giorni come periodo di tempo e 0,015 come valore costante.
 
@@ -160,9 +160,17 @@ cci_XRP <- CCI(HLC(XRP), n = 20, c = 0.015)
 barChart(XRP, theme = 'black')
 addCCI(n = 20, c = 0.015)
 
+# 5.ADA
+
+cci_ADA <- CCI(HLC(ADA), n = 20, c = 0.015)
+barChart(ADA, theme = 'black')
+addCCI(n = 20, c = 0.015)
+
+
+
 ```
 
-## Tasso di variazione (ROC)
+### Tasso di variazione (ROC)
 
 Per calcolare il ROC, dobbiamo considerare un intervallo di tempo specificato e non ci sono restrizioni nell'utilizzare qualsiasi periodo. In questo passaggio, prenderemo 25 giorni come periodo di tempo.
 
@@ -175,6 +183,34 @@ barChart(BTC, theme = 'black')
 addROC(n = 25)
 legend('left', col = 'red', legend = 'ROC(25)', lty = 1, bty = 'n',
        text.col = 'white', cex = 0.8)
+
+roc_ETH <- ROC(ETH$`ETH-USD.Close`, n = 25)
+barChart(ETH, theme = 'black')
+addROC(n = 25)
+legend('left', col = 'red', legend = 'ROC(25)', lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+
+
+roc_BNB <- ROC(BNB$`BNB-USD.Close`, n = 25)
+barChart(BNB, theme = 'black')
+addROC(n = 25)
+legend('left', col = 'red', legend = 'ROC(25)', lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+
+
+roc_XRP <- ROC(XRP$`XRP-USD.Close`, n = 25)
+barChart(XRP, theme = 'black')
+addROC(n = 25)
+legend('left', col = 'red', legend = 'ROC(25)', lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+
+
+roc_ADA <- ROC(ADA$`ADA-USD.Close`, n = 25)
+barChart(ADA, theme = 'black')
+addROC(n = 25)
+legend('left', col = 'red', legend = 'ROC(25)', lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+
        
 ```
 
