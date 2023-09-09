@@ -52,6 +52,7 @@ barChart(`ETH-USD`,theme = chartTheme('black'))
 barChart(`ADA-USD`,theme = chartTheme('black'))
 barChart(`XRP-USD`,theme = chartTheme('black'))
 ```
+
 ## Creazione di indicatori tecnici
 
 Ci sono molti indicatori tecnici utilizzati per l'analisi finanziaria ma, per la nostra analisi, utilizzeremo e creeremo sei dei più famosi indicatori tecnici, ovvero: Media mobile semplice (SMA), Parabolic Stop And Reverse (SAR), Indice del canale delle materie prime (CCI), Tasso di variazione (ROC), Indice del momento stocastico (SMI) e infine Williams %R. Facciamolo!
@@ -130,6 +131,7 @@ legend('left', col = c('green','blue','orange'),
        legend = c('BNB-USD','SMA50','SMA100'), lty = 1, bty = 'n',
        text.col = 'white', cex = 0.8)
 ```
+
 ## Indice del Canale delle Materie Prime (CCI):
 
 Per calcolare il CCI, dobbiamo considerare i prezzi giornalieri di massimo, minimo e chiusura delle aziende insieme a un periodo di tempo specificato e un valore costante. In questo passaggio, prenderemo 20 giorni come periodo di tempo e 0,015 come valore costante.
@@ -159,4 +161,23 @@ barChart(XRP, theme = 'black')
 addCCI(n = 20, c = 0.015)
 
 ```
+
+## Tasso di variazione (ROC)
+
+Per calcolare il ROC, dobbiamo considerare un intervallo di tempo specificato e non ci sono restrizioni nell'utilizzare qualsiasi periodo. In questo passaggio, prenderemo 25 giorni come periodo di tempo.
+
+Il codice seguente calcolerà il ROC delle aziende insieme a un grafico:
+
+```{r}
+# 1. BTC
+roc_btc <- ROC(BTC$`BTC-USD.Close`, n = 25)
+barChart(BTC, theme = 'black')
+addROC(n = 25)
+legend('left', col = 'red', legend = 'ROC(25)', lty = 1, bty = 'n',
+       text.col = 'white', cex = 0.8)
+       
+```
+
+
+
 
