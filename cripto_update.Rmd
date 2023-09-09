@@ -24,6 +24,7 @@ importare i nostri pacchetti richiesti.
 library(quantmod)
 library(TTR)
 library(PerformanceAnalytics)
+library(httpgd)
 ```
 
 ## Passaggio 2: Estrazione dei dati da Yahoo e Plotting di base
@@ -96,7 +97,6 @@ legend('left', col = c('green','blue','orange'),
 
 
 
-
 ```{r}
 sma50_btc <- SMA(ADA$`ADA-USD.Close`, n = 50)
 sma100_btc <- SMA(ADA$`ADA-USD.Close`, n = 100)
@@ -130,9 +130,33 @@ legend('left', col = c('green','blue','orange'),
        legend = c('BNB-USD','SMA50','SMA100'), lty = 1, bty = 'n',
        text.col = 'white', cex = 0.8)
 ```
+## Indice del Canale delle Materie Prime (CCI):
 
-## Ora si vedono alcune modifiche 
+Per calcolare il CCI, dobbiamo considerare i prezzi giornalieri di massimo, minimo e chiusura delle aziende insieme a un periodo di tempo specificato e un valore costante. In questo passaggio, prenderemo 20 giorni come periodo di tempo e 0,015 come valore costante.
 
+Il seguente codice calcolerà il CCI delle aziende insieme a un grafico:
 
+```{r}
+# 1.BTC 
+cci_BTC <- CCI(HLC(BTC), n = 20, c = 0.015)
+barChart(BTC, theme = 'black')
+addCCI(n = 20, c = 0.015)
 
+# 2.ETH 
+cci_eth <- CCI(HLC(ETH), n = 20, c = 0.015)
+barChart(ETH, theme = 'black')
+addCCI(n = 20, c = 0.015)
+
+# 3.BNB 
+cci_BNB <- CCI(HLC(BNB), n = 20, c = 0.015)
+barChart(BNB, theme = 'black')
+addCCI(n = 20, c = 0.015)
+
+# 4. XRP
+
+cci_XRP <- CCI(HLC(XRP), n = 20, c = 0.015)
+barChart(XRP, theme = 'black')
+addCCI(n = 20, c = 0.015)
+
+```
 
