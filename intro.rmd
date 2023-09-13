@@ -5,7 +5,8 @@ bibliography: "references.bib"
 biblio-style: apalike
 language: "it"
 output:
-     bookdown::html_document2
+  tufte::tufte_html: default
+  tufte::tufte_handout: default
 date: "2 Settembre 2023"
 ---
 
@@ -27,4 +28,19 @@ Mentre la perdita di oltre 100.000 bambini sarebbe indicibilmente triste in ogni
 > "Il consiglio di far dormire i neonati sulla pancia per quasi mezzo secolo era contrario alle prove disponibili dal 1970 che questo era probabilmente dannoso. Una revisione sistematica dei fattori di rischio evitabili per la SIDS dal 1970 avrebbe portato a una precedente riconoscimento dei rischi del sonno sulla pancia e potrebbe aver impedito oltre 10.000 morti infantili". [@10.1201/9781003107347]
 
 
+## UN IMPERATIVO ETICO
 
+Questo esempio è uno dei diversi citati da Sir Iain Chalmers in una presentazione intitolata _"Lo scandalo dell'incapacità degli scienziati di cumulare scientificamente"_ [@chalmers2005scandalous]. Il tema di questa presentazione era che viviamo in un mondo in cui l'utilità di quasi ogni intervento sarà testata ripetutamente e che, anziché guardare a uno studio in isolamento, dobbiamo guardare al corpo di evidenza. Sebbene non tutte le revisioni sistematiche abbiano l'urgenza della SIDS, la logica di guardare al corpo di evidenza, anziché cercare di capire gli studi in isolamento, è sempre convincente.
+
+La meta-analisi si riferisce alla sintesi statistica dei risultati di una serie di studi. 
+Mentre le procedure statistiche utilizzate in una meta-analisi possono essere applicate a qualsiasi insieme di dati, la sintesi avrà significato solo se gli studi sono stati raccolti in modo sistematico. Questo potrebbe avvenire nel contesto di una revisione sistematica, il processo di individuazione, valutazione e sintesi sistematica di dati provenienti da un gran numero di fonti. Oppure, potrebbe avvenire nel contesto della sintesi dei dati da un gruppo selezionato di studi, come quelli condotti da una società farmaceutica per valutare l'efficacia di un nuovo farmaco.
+
+Se un effetto di trattamento (o dimensione dell'effetto) è coerente attraverso la serie di studi, queste procedure ci consentono di riportare che l'effetto è robusto attraverso i tipi di popolazioni campionate e anche di stimare la magnitudine dell'effetto in modo più preciso di quanto potremmo fare con uno qualsiasi degli studi da soli. Se l'effetto del trattamento varia attraverso la serie di studi, queste procedure ci consentono di riportare sulla gamma di effetti e possono consentirci di identificare i fattori associati alla magnitudine della dimensione dell'effetto.
+
+## DALLE RECENSIONI NARRATIVE ALLE RECENSIONI SISTEMATICHE
+
+Prima degli anni '90, il compito di combinare i dati provenienti da studi multipli era stato principalmente appannaggio della revisione narrativa. Un esperto in un determinato campo avrebbe letto gli studi che affrontavano una domanda, riassunto i risultati e poi sarebbe giunto a una conclusione, ad esempio che il trattamento in questione era o non era efficace. Tuttavia, questo approccio presenta alcune importanti limitazioni.
+
+Un limite è la soggettività insita in questo approccio, unita alla mancanza di trasparenza. Ad esempio, i diversi revisori potrebbero utilizzare criteri diversi per decidere quali studi includere nella revisione. Una volta selezionata una serie di studi, un revisore potrebbe dare maggior credito agli studi più grandi, mentre un altro attribuisce maggior credito agli studi _"di qualità"_ e un altro ancora assegna un peso comparabile a tutti gli studi. Un revisore può richiedere un numero consistente di evidenze prima di concludere che un trattamento è efficace, mentre un altro utilizza una soglia più bassa. In effetti, **ci sono esempi in letteratura in cui due revisioni narrative giungono a conclusioni opposte**, con una che riferisce che un trattamento è efficace mentre l'altra che non lo è. Di norma, il revisore narrativo non articola (e potrebbe anche non essere pienamente consapevole) il processo decisionale utilizzato per sintetizzare i dati e giungere a una conclusione.
+
+Un secondo limite delle revisioni narrative è che diventano meno utili man mano che si rendono disponibili altre informazioni. Il processo di pensiero richiesto per una sintesi richiede che il revisore colga i risultati riportati in ogni studio, assegni un peso appropriato a tali risultati e poi sintetizzi questi risultati in tutti gli studi della sintesi. Sebbene un revisore possa essere in grado di sintetizzare i dati di alcuni studi nella propria testa, il processo diventa difficile e alla fine insostenibile quando il numero di studi aumenta. Questo è vero anche quando l'effetto del trattamento (o dimensione dell'effetto) è coerente da studio a studio. Spesso, tuttavia, l'effetto del trattamento varia in funzione delle covariate a livello di studio, come la popolazione di pazienti, la dose di farmaco, la variabile di esito e altri fattori. In questi casi, una sintesi adeguata richiede che il ricercatore sia in grado di capire come l'effetto del trattamento varia in funzione di queste variabili, e la revisione narrativa non è molto adatta ad affrontare questo tipo di problemi.

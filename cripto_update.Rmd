@@ -1,7 +1,7 @@
 ---
 title: "Cripto_updated" 
 author: "Enrico Pirani" 
-datte: "2023-09-05"      
+date: "2023-09-05"      
 output:
   tufte::tufte_html: default
   tufte::tufte_handout: default
