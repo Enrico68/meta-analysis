@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.19 running in TOOL mode
+[0] Config.pm:310> INFO - Logfile is 'references.bib.blg'
+[100] biber-darwin:340> INFO - === Mer Set 13, 2023, 10:15:34
+[138] Biber.pm:4606> INFO - Looking for bibtex file 'references.bib'
+[141] bibtex.pm:1713> INFO - LaTeX decoding ...
+[156] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[245] Biber.pm:1670> INFO - Datamodel validation starting
+[249] Biber.pm:1720> INFO - Datamodel validation complete
+[257] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[257] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[257] Biber.pm:4239> INFO - Sorting list 'tool/global//global/global' of type 'entry' with template 'tool' and locale 'en_US'
+[257] Biber.pm:4245> INFO - No sort tailoring available for locale 'en_US'
+[263] bibtex.pm:440> INFO - Writing 'references_bibertool.bib' with encoding 'UTF-8'
+[264] bibtex.pm:480> INFO - Output to references_bibertool.bib
+[264] Biber.pm:131> WARN - Datamodel: book entry '10.1201/9781003107347' (references.bib): Missing mandatory field - one of 'date, year' must be defined
+[264] Biber.pm:131> WARN - Datamodel: book entry 'undefined' (references.bib): Missing mandatory field - one of 'date, year' must be defined
+[264] Biber.pm:131> WARN - Datamodel: article entry 'Cannon2006Aug' (references.bib): Invalid field 'publisher' for entrytype 'article'
+[264] Biber.pm:131> WARN - Datamodel: article entry 'Gilbert2005Aug' (references.bib): Invalid field 'publisher' for entrytype 'article'
+[264] Biber.pm:131> WARN - Datamodel: article entry 'Plutchak2006Jan' (references.bib): Invalid field 'publisher' for entrytype 'article'
+[264] Biber.pm:133> INFO - WARNINGS: 5
