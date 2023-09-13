@@ -24,7 +24,6 @@ importare i nostri pacchetti richiesti.
 library(quantmod)
 library(TTR)
 library(PerformanceAnalytics)
-library(httpgd)
 ```
 
 ## Passaggio 2: Estrazione dei dati da Yahoo e Plotting di base
