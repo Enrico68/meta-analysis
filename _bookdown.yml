@@ -1,0 +1,17 @@
+language:
+  label:
+    fig: 'Figura '
+    tab: 'Tabella '
+    eq: 'Equazione '
+    thm: 'Theorem '
+    lem: 'Lemma '
+    cor: 'Corollario '
+    prp: 'Proposizione '
+    cnj: 'Conjecture '
+    def: 'Definition '
+    exm: 'Example '
+    exr: 'Exercise '
+    hyp: 'Hypothesis '
+    proof: 'Proof. '
+    remark: 'Remark. '
+    solution: 'Soluzione '

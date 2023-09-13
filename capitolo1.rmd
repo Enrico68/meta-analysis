@@ -5,14 +5,21 @@ bibliography: "references.bib"
 biblio-style: apalike
 language: "it"
 output:
-  tufte::tufte_html: default
-  tufte::tufte_handout: default
+  bookdown::tufte_html2: default
+  bookdown::pdf_document2:
+    keep_tex: true
+  bookdown::word_document2:
+    toc: true
 date: "2 Settembre 2023"
 ---
-## Introduzione
-La Figure \@ref(fig:fig1)  illustra una meta-analisi che mostra l'impatto delle statine ad alto dosaggio rispetto a quelle a dosaggio standard nella prevenzione della morte e dell'infarto miocardico (MI). Questa analisi è adattata da quella riportata da Cannon et al. e pubblicata sul Journalof the American College of Cardiology (2006). Il nostro obiettivo nel presentarla qui è quello di introdurre i vari elementi di una meta-analisi (la dimensione dell'effetto per ogni studio, il peso assegnato a ciascuna dimensione dell'effetto, la stima dell'effetto di sintesi e così via) e mostrare dove ciascuno si inserisce nello schema più ampio. Nei capitoli successivi, ognuno di questi elementi verrà esplorato in dettaglio.
 
-```{r fig1, echo='FALSE', out.width='100%', fig.cap='Dosaggio elevato rispetto al dosaggio standard di statine (adattato da [@Cannon2006Aug]).'}
+## Introduzione
+La Figura \@ref(fig:fig1)  illustra una meta-analisi che mostra l'impatto delle statine ad alto dosaggio rispetto a quelle a dosaggio standard nella prevenzione della morte e dell'infarto miocardico (MI). Questa analisi è adattata da quella riportata da Cannon et al. e pubblicata sul Journalof the American College of Cardiology (2006). Il nostro obiettivo nel presentarla qui è quello di introdurre i vari elementi di una meta-analisi (la dimensione dell'effetto per ogni studio, il peso assegnato a ciascuna dimensione dell'effetto, la stima dell'effetto di sintesi e così via) e mostrare dove ciascuno si inserisce nello schema più ampio. Nei capitoli successivi, ognuno di questi elementi verrà esplorato in dettaglio.
+
+```{r fig1, echo= FALSE, out.width='100%', fig.cap='Dosaggio elevato rispetto al dosaggio standard di statine (adattato da [@Cannon2006Aug]).'}
 knitr::include_graphics('Figures/Screenshot 2023-09-13 alle 10.55.41.png')
 ```
+
+L'obiettivo di questa presentazione è quello di introdurre i vari elementi di una meta-analisi (la dimensione dell'effetto per ogni studio, il peso assegnato a ogni dimensione dell'effetto, la stima dell'effetto di sintesi e così via) e di mostrare dove ciascuno di essi si inserisce nello schema più ampio. Nei capitoli successivi, ognuno di questi elementi verrà esplorato in dettaglio.
+
 
