@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Passo 1: Importazione delle librerie necessarie
 
+
 In primo luogo, per eseguire il nostro processo di creazione di
 strategie di trading, dobbiamo importare le librerie necessarie nel
 nostro ambiente. In tutto questo processo, utilizzeremo alcune delle
