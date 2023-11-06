@@ -1,0 +1,789 @@
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git pull
+[?2004lremote: Enumerating objects: 17, done.[K
+remote: Counting objects:   5% (1/17)[Kremote: Counting objects:  11% (2/17)[Kremote: Counting objects:  17% (3/17)[Kremote: Counting objects:  23% (4/17)[Kremote: Counting objects:  29% (5/17)[Kremote: Counting objects:  35% (6/17)[Kremote: Counting objects:  41% (7/17)[Kremote: Counting objects:  47% (8/17)[Kremote: Counting objects:  52% (9/17)[Kremote: Counting objects:  58% (10/17)[Kremote: Counting objects:  64% (11/17)[Kremote: Counting objects:  70% (12/17)[Kremote: Counting objects:  76% (13/17)[Kremote: Counting objects:  82% (14/17)[Kremote: Counting objects:  88% (15/17)[Kremote: Counting objects:  94% (16/17)[Kremote: Counting objects: 100% (17/17)[Kremote: Counting objects: 100% (17/17), done.[K
+remote: Compressing objects:   6% (1/15)[Kremote: Compressing objects:  13% (2/15)[Kremote: Compressing objects:  20% (3/15)[Kremote: Compressing objects:  26% (4/15)[Kremote: Compressing objects:  33% (5/15)[Kremote: Compressing objects:  40% (6/15)[Kremote: Compressing objects:  46% (7/15)[Kremote: Compressing objects:  53% (8/15)[Kremote: Compressing objects:  60% (9/15)[Kremote: Compressing objects:  66% (10/15)[Kremote: Compressing objects:  73% (11/15)[Kremote: Compressing objects:  80% (12/15)[Kremote: Compressing objects:  86% (13/15)[Kremote: Compressing objects:  93% (14/15)[Kremote: Compressing objects: 100% (15/15)[Kremote: Compressing objects: 100% (15/15), done.[K
+Unpacking objects:   6% (1/15)Unpacking objects:  13% (2/15)Unpacking objects:  20% (3/15)Unpacking objects:  26% (4/15)Unpacking objects:  33% (5/15)Unpacking objects:  40% (6/15)Unpacking objects:  46% (7/15)Unpacking objects:  53% (8/15)Unpacking objects:  60% (9/15)Unpacking objects:  66% (10/15)Unpacking objects:  73% (11/15)Unpacking objects:  80% (12/15)Unpacking objects:  86% (13/15)Unpacking objects:  93% (14/15)remote: Total 15 (delta 7), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (15/15)Unpacking objects: 100% (15/15), 6.36 MiB | 11.28 MiB/s, done.
+From https://github.com/Enrico68/meta-analysis
+   90d634d..46d9b9b  main       -> origin/main
+Updating 90d634d..46d9b9b
+error: Your local changes to the following files would be overwritten by merge:
+	cripto_update.ipynb
+Please commit your changes or stash them before you merge.
+Aborting
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git commit
+[?2004lOn branch main
+Your branch is behind 'origin/main' by 5 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   cripto_update.Rmd[m
+	[31mmodified:   cripto_update.html[m
+	[31mmodified:   cripto_update.ipynb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.2023-10-13-file-1.term-0.term[m
+	[31m.2023-11-01-terminal-1.term-0.term[m
+	[31m2023-10-13-file-1.term[m
+	[31m2023-11-01-terminal-1.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git pull
+[?2004lUpdating 90d634d..46d9b9b
+error: Your local changes to the following files would be overwritten by merge:
+	cripto_update.ipynb
+Please commit your changes or stash them before you merge.
+Aborting
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git commit
+[?2004lOn branch main
+Your branch is behind 'origin/main' by 5 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   cripto_update.Rmd[m
+	[31mmodified:   cripto_update.html[m
+	[31mmodified:   cripto_update.ipynb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.2023-10-13-file-1.term-0.term[m
+	[31m.2023-11-01-terminal-1.term-0.term[m
+	[31m2023-10-13-file-1.term[m
+	[31m2023-11-01-terminal-1.term[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git vom[K[K[Kcommit -a
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;22r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[20;27H(B[0;7m[ Reading... ](B[m[20;25H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m       /home/user/meta-analysis/.git/COMMIT_EDITMSG               [1;65H(B[m[21d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[22d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[3d[36m# Please enter the commit message for your changes. Lines starting[4;1H# with '#' will be ignored, and an empty message aborts the commi[39m(B[0;7m>[5;1H(B[0m[36m#[6d# On branch main[7d# Your branch is behind 'origin/main' by 5 commits, and can be fa[39m(B[0;7m>[8;1H(B[0m[36m#   (use "git pull" to update your local branch)[9d#[10d# Changes to be committed:[11d#[38;5;208m       [36mmodified:   cripto_update.Rmd[12d#[38;5;208m       [36mmodified:   cripto_update.html[13d#[38;5;208m       [36mmodified:   cripto_update.ipynb[14d#[15d# Untracked files:[16d#[38;5;208m       [36m.2023-10-13-file-1.term-0.term[17d#[38;5;208m       [36m.2023-11-01-terminal-1.term-0.term[18d#[38;5;208m       [36m2023-10-13-file-1.term[19d#[38;5;208m       [36m2023-11-01-terminal-1.term[2d[39m(B[m[?12l[?25h[?25l[1;53H(B[0;7m*[65G(B[m[?12l[?25h[2di[?25l[?12l[?25h[K[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25h[?25l[20;22H(B[0;7m[ Recording a macro... ](B[m[1;63H(B[0;7mR (B[m[?12l[?25h[2;6H[?25l[?12l[?25h.[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[21;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[22;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[20d(B[0;7mFile Name to Write: /home/user/meta-analysis/.git/COMMIT_EDITMSG  [20;65H(B[m[?12l[?25h[?25l[20;26H[1K (B[0;7m[ Writing... ](B[m[K[1;53H(B[0;7m [65G(B[m[20;25H(B[0;7m[ Wrote 19 lines ](B[m[21;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[22;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;6H[?25l[20d[J[22d[?12l[?25h[22;1H[?1049l[23;0;0t[?1l>[?2004l[K[main 8a3c755] comit
+ 3 files changed, 83 insertions(+), 72 deletions(-)
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git commit
+[?2004lOn branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 5 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.2023-10-13-file-1.term-0.term[m
+	[31m.2023-11-01-terminal-1.term-0.term[m
+	[31m2023-10-13-file-1.term[m
+	[31m2023-11-01-terminal-1.term[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git pull
+[?2004lAuto-merging cripto_update.ipynb
+CONFLICT (content): Merge conflict in cripto_update.ipynb
+Automatic merge failed; fix conflicts and then commit the result.
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git add
+[?2004lNothing specified, nothing added.
+[33mhint: Maybe you wanted to say 'git add .'?[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addEmptyPathspec false"[m
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git add cry[Kipto_update.ipynb 
+[?2004l[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git add cripto_update.ipynb [Kpull
+[?2004lerror: You have not concluded your merge (MERGE_HEAD exists).
+[33mhint: Please, commit your changes before merging.[m
+fatal: Exiting because of unfinished merge.
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git pulladd cripto_update.ipynb [Kpullcommit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;22r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[20;27H(B[0;7m[ Reading... ](B[m[20;25H(B[0;7m[ Read 31 lines ](B[m[H(B[0;7m       /home/user/meta-analysis/.git/COMMIT_EDITMSG               [1;65H(B[m[21d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[22d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[2dMerge branch 'main' of [94mhttps://github.com/Enrico68/meta-analysis[4d[36m# Conflicts:[5d#[38;5;208m       [36mcripto_update.ipynb[6d#[7d# It looks like you may be committing a merge.[8d# If this is not correct, please run[9d#[38;5;208m       [36mgit update-ref -d MERGE_HEAD[10d# and try again.[13d# Please enter the commit message for your changes. Lines starting[14;1H# with '#' will be ignored, and an empty message aborts the commi[39m(B[0;7m>[15;1H(B[0m[36m#[16d# On branch main[17d# Your branch and 'origin/main' have diverged,[18d# and have 1 and 5 different commits each, respectively.[19d#   (use "git pull" to merge the remote branch into yours)[2d[39m(B[m[?12l[?25h[?25l[1;53H(B[0;7m*[65G(B[m7[2;19r8[2dM[1;22r[3;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[21;14H(B[0;7mM-C(B[m Case Sens(B[0;7mM-B(B[m Backwards(B[0;7m^P(B[m Older[21;56HGo To Line[22;2H(B[0;7mC(B[m Cancel    (B[0;7mM-R(B[m Reg.exp. (B[0;7m^R[22;41HN(B[m Newer[K[21;66H[A(B[0;7mSearch:                                                           [20;9H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[20;26H[1K (B[0;7m[ Cancelled ](B[m[K[21;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut  [21;56HExecute[K[22;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\[22;41HU(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;6H[?25l[21;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[22;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[20d(B[0;7mFile Name to Write: /home/user/meta-analysis/.git/COMMIT_EDITMSG  [20;65H(B[m[?12l[?25h[?25l[20;26H[1K (B[0;7m[ Writing... ](B[m[K[1;53H(B[0;7m [65G(B[m[20;25H(B[0;7m[ Wrote 32 lines ](B[m[21;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[22;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;6H[?25l[20d[J[22d[?12l[?25h[22;1H[?1049l[23;0;0t[?1l>[?2004l[K[main 046d6d9] comit Merge branch 'main' of https://github.com/Enrico68/meta-analysis
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git commit[2Ppull
+[?2004lAlready up to date.
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ radian
+[?2004lGot an error while loading radian profile
+Error in eval(ei, envir) : object 'i' not found
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+[6n[?2004h[?1l[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[4D[0m[J[0;34mr$>[3D[0m
+[J[?7h[0m[?12l[?25h[?2004l
+[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ml[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ms[0m
+[6C[0;38;5;16;48;5;250m ls.diag   [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m ls.print  [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m ls.str    [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m lsf.str   [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m lsfit     [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m lsa::     [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m lsei::    [0;38;5;16;48;5;248m [7A[12D[?7h[0m[?12l[?25h[?25l[?7l[2D[0;38;5;70mls[0;38;5;252m()[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[6C[?7h[0m[?12l[?25h[?25l[?7l[C[?7h[0m[?12l[?25h[?25l[?7l[8D[0m[J[0;34mr$>[0m [0;38;5;70mls[0;38;5;252m()[8D[0m
+[J[?7h[0m[?12l[?25h[?2004lcharacter(0)
+
+[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[4D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[4D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mq[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mu[0m
+[6C[0;38;5;16;48;5;250m quade.test       [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m quakes           [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m quantile         [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quarters         [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quarters.Date    [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quarters.POSIXt  [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quartz           [0;38;5;16;48;5;248m [7A[19D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mi[0m
+[6C[0m [0;38;5;16;48;5;250m quit     [3C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quickmapr::[C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quickPlot::[C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quickp[Cy::[2C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quint::     [0;38;5;16;48;5;238m [0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[6C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[5A[7C[?7h[0m[?12l[?25h[?25l[?7l[4D[0;38;5;70mquit[0;38;5;252m()[?7h[0m[?12l[?25h[?25l[?7l[C[?7h[0m[?12l[?25h[?25l[?7l[10D[0m[J[0;34mr$>[0m [0;38;5;70mquit[0;38;5;252m()[10D[0m
+[J[?7h[0m[?12l[?25h[?2004l[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ ls
+[?2004l2023-09-12-file-1.term      _bookdown.yml    cripto_update.Rmd    meta-analisi.Rproj
+2023-10-13-file-1.term      [0m[01;34m_extensions[0m      cripto_update.html   references.bib
+2023-11-01-terminal-1.term  capitolo1.html   cripto_update.ipynb  references.bib.blg
+[01;34mFigures[0m                     capitolo1.ipynb  cripto_update.pdf    references_bibertool.bib
+README.md                   capitolo1.rmd    first_steps.ipynb
+Speed_and_distance.Rmd      [01;34mcapitolo1_files[0m  intro.rmd
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ [K]0;~/meta-analysis[01;34m~/meta-analysis[00m$ [K]0;~/meta-analysis[01;34m~/meta-analysis[00m$ wget ^V[K[K ^C[?2004l[?2004h[?2004l
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ wget https://raw.githubusercontent.com/gedeck/practical-statistics-for-data-scientists/master/data/state.csv
+[?2004l--2023-11-01 14:46:19--  https://raw.githubusercontent.com/gedeck/practical-statistics-for-data-scientists/master/data/state.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1457 (1.4K) [text/plain]
+Saving to: ‘state.csv’
+
+state.csv                  0%[                                 ]       0  --.-KB/s               state.csv                100%[================================>]   1.42K  --.-KB/s    in 0s      
+
+2023-11-01 14:46:19 (14.2 MB/s) - ‘state.csv’ saved [1457/1457]
+
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ lrtìì[K[K[K[Ks -.[K [Klrt
+[?2004ltotal 17970
+-rw-r--r-- 1 user user     862 Sep  8 20:12 Speed_and_distance.Rmd
+-rw-r--r-- 1 user user      15 Sep  8 20:12 README.md
+-rw-r--r-- 1 user user     232 Sep  8 20:12 meta-analisi.Rproj
+-rw-r--r-- 1 user user 2256699 Sep 12 20:38 cripto_update.pdf
+-rw-r--r-- 1 user user    2982 Sep 13 11:01 references_bibertool.bib
+-rw-r--r-- 1 user user    1823 Sep 13 11:01 references.bib.blg
+-rw-r--r-- 1 user user    6573 Sep 13 11:01 intro.rmd
+drwxr-xr-x 2 user user       3 Sep 13 11:01 [0m[01;34mFigures[0m
+-rw-r--r-- 1 user user    3517 Sep 13 11:13 references.bib
+-rw-r--r-- 1 user user     345 Sep 13 11:23 _bookdown.yml
+-rw-r--r-- 1 user user    2034 Sep 13 11:57 capitolo1.rmd
+-rw-r--r-- 1 user user       0 Sep 14 12:38 2023-09-12-file-1.term
+-rw-r--r-- 1 user user    3527 Sep 14 13:21 capitolo1.ipynb
+-rw-r--r-- 1 user user   14595 Sep 14 13:21 capitolo1.html
+drwxr-xr-x 3 user user       3 Sep 14 13:21 [01;34mcapitolo1_files[0m
+drwxr-xr-x 3 user user       3 Sep 14 13:29 [01;34m_extensions[0m
+-rw-r--r-- 1 user user       0 Oct 13 11:01 2023-10-13-file-1.term
+-rw-r--r-- 1 user user    6684 Nov  1 14:33 cripto_update.Rmd
+-rw-r--r-- 1 user user 7020821 Nov  1 14:33 cripto_update.html
+-rw-r--r-- 1 user user       0 Nov  1 14:34 2023-11-01-terminal-1.term
+-rw-r--r-- 1 user user   16390 Nov  1 14:36 first_steps.ipynb
+-rw-r--r-- 1 user user 9152956 Nov  1 14:36 cripto_update.ipynb
+-rw-r--r-- 1 user user    1457 Nov  1 14:46 state.csv
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ rai[Kdian
+[?2004lGot an error while loading radian profile
+Error in eval(ei, envir) : object 'i' not found
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+[6n[?2004h[?1l[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ms[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt[0m
+[6C[0;38;5;16;48;5;250m stack             [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m stack.loss        [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m stack.x           [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m stackloss         [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m standardGeneric   [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m stars             [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m start             [0;38;5;16;48;5;248m [7A[20D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ma[0m
+[6C[0m [0;38;5;16;48;5;250m stack[0m
+[6C[0m [0;38;5;16;48;5;250m stack.lo[Cs[0m
+[6C[0m [0;38;5;16;48;5;250m stack.x[0m
+[6C[0m [0;38;5;16;48;5;250m stacklo[Cs[0m
+[6C[0m [0;38;5;16;48;5;250m standardGeneric[0m
+[6C[0m [0;38;5;16;48;5;250m stars[0m
+[6C[0m [0;38;5;16;48;5;250m start[7A[6D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt[0m
+[7C[0m [0;38;5;16;48;5;250m stat.anova[6C [0;38;5;16;48;5;238m [0m
+[7C[0m [0;38;5;16;48;5;250m state.abb[7C [0;38;5;16;48;5;238m [0m
+[7C[0m [0;38;5;16;48;5;250m state.area[6C [0;38;5;16;48;5;238m [0m
+[7C[0m [0;38;5;16;48;5;250m state.center[4C [0;38;5;16;48;5;248m [0m
+[7C[0m [0;38;5;16;48;5;250m state.[Civision[2C [0;38;5;16;48;5;248m [0m
+[7C[0m [0;38;5;16;48;5;250m state.name[6C [0;38;5;16;48;5;248m [0m
+[7C[0m [0;38;5;16;48;5;250m sta[Ce.region[4C [0;38;5;16;48;5;248m [7A[19D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252me[0m
+[8C[0m [0;38;5;16;48;5;250m state.abb[6C[0;38;5;16;48;5;238m [0m[K[0m
+[8C[0m [0;38;5;16;48;5;250m state.area[5C[0;38;5;16;48;5;238m [0m[K[0m
+[8C[0m [0;38;5;16;48;5;250m state.c[Cnter[3C[0;38;5;16;48;5;238m [0m[K[0m
+[8C[0m [0;38;5;16;48;5;250m state.division[C[0;38;5;16;48;5;238m [0m[K[0m
+[8C[0m [0;38;5;16;48;5;250m state.name   [2C[0;38;5;16;48;5;238m [0m[K[0m
+[8C[0m [0;38;5;16;48;5;250m state.region[3C[0;38;5;16;48;5;238m [0m[K[0m
+[8C[0m [0;38;5;16;48;5;250m state.x77  [4C[0;38;5;16;48;5;248m [0m[K[7A[17D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m [0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[9C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m<[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m-[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m [?7h[0m[?12l[?25h[13D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m [0m
+
+
+
+
+
+
+[0m [7A[13C[?7h[0m[?12l[?25h[13D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m [0m
+
+
+
+
+
+
+[0m [7A[13C[?7h[0m[?12l[?25h[13D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m [0m
+
+
+
+
+
+
+[0m [7A[13C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[13D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m [0m
+
+
+
+
+
+
+[0m [7A[13C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mre[0m
+[15C[0;38;5;16;48;5;250m read.csv                        [0;38;5;16;48;5;238m [0m
+[15C[0;38;5;16;48;5;250m read.csv2                       [0;38;5;16;48;5;238m [0m
+[15C[0;38;5;16;48;5;250m read.dcf                        [0;38;5;16;48;5;248m [0m
+[15C[0;38;5;16;48;5;250m read.delim                      [0;38;5;16;48;5;248m [0m
+[15C[0;38;5;16;48;5;250m read.delim2                     [0;38;5;16;48;5;248m [0m
+[15C[0;38;5;16;48;5;250m read.DIF                        [0;38;5;16;48;5;248m [0m
+[15C[0;38;5;16;48;5;250m read.fortran                    [0;38;5;16;48;5;248m [7A[34D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ma[0m
+[15C[0m [0;38;5;16;48;5;250m read.csv[13C[0;38;5;16;48;5;238m [0m[K[0m
+[15C[0m [0;38;5;16;48;5;250m read.csv2[12C[0;38;5;16;48;5;238m [0m[K[0m
+[15C[0m [0;38;5;16;48;5;250m read.dcf[13C[0;38;5;16;48;5;248m [0m[K[0m
+[15C[0m [0;38;5;16;48;5;250m read.delim[11C[0;38;5;16;48;5;248m [0m[K[0m
+[15C[0m [0;38;5;16;48;5;250m read.delim2[10C[0;38;5;16;48;5;248m [0m[K[0m
+[15C[0m [0;38;5;16;48;5;250m read.DIF[13C[0;38;5;16;48;5;248m [0m[K[0m
+[15C[0m [0;38;5;16;48;5;250m read.fortran[9C[0;38;5;16;48;5;248m [0m[K[7A[23D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252md[0m
+[16C[0m [0;38;5;16;48;5;250m read.csv[12C [0;38;5;16;48;5;238m [0m
+[16C[0m [0;38;5;16;48;5;250m read.csv2[11C [0;38;5;16;48;5;238m [0m
+[16C[0m [0;38;5;16;48;5;250m read.dcf[12C [0;38;5;16;48;5;248m [0m
+[16C[0m [0;38;5;16;48;5;250m read.delim[10C [0;38;5;16;48;5;248m [0m
+[16C[0m [0;38;5;16;48;5;250m read.delim2[9C [0;38;5;16;48;5;248m [0m
+[16C[0m [0;38;5;16;48;5;250m read.DIF[12C [0;38;5;16;48;5;248m [0m
+[16C[0m [0;38;5;16;48;5;250m read.fortran[8C [0;38;5;16;48;5;248m [7A[23D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m.csv[0m
+[17C[0;38;5;102;48;5;231;7m read.csv             [A[18D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m [0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[21C[?7h[0m[?12l[?25h[22D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m read.csv [0m
+
+
+
+
+
+
+[0m [7A[22C[?7h[0m[?12l[?25h[22D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m read.csv [0m
+
+
+
+
+
+
+[0m [7A[22C[?7h[0m[?12l[?25h[22D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m read.csv [0m
+
+
+
+
+
+
+[0m [7A[22C[?7h[0m[?12l[?25h[22D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m read.csv [0m
+
+
+
+
+
+
+[0m [7A[22C[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m [?7h[0m[?12l[?25h[?25l[?7l[9D[0;38;5;70mread.csv [0;38;5;252m()[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;214m''[0;38;5;252m)[0m
+[24C[0;38;5;16;48;5;250m 2023-09-12-file-1.term     [0;38;5;16;48;5;238m [0m
+[24C[0;38;5;16;48;5;250m 2023-10-13-file-1.term     [0;38;5;16;48;5;238m [0m
+[24C[0;38;5;16;48;5;250m 2023-11-01-terminal-1.term [0;38;5;16;48;5;238m [0m
+[24C[0;38;5;16;48;5;250m Figures/                   [0;38;5;16;48;5;248m [0m
+[24C[0;38;5;16;48;5;250m README.md                  [0;38;5;16;48;5;248m [0m
+[24C[0;38;5;16;48;5;250m Speed_and_distance.Rmd     [0;38;5;16;48;5;248m [0m
+[24C[0;38;5;16;48;5;250m _bookdown.yml              [0;38;5;16;48;5;248m [7A[29D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;214ms'[0;38;5;252m)[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[24C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;214mt'[0;38;5;252m)[0m
+[26C[0;38;5;16;48;5;250m state.csv       [0;38;5;16;48;5;238m [0m
+[26C[0;38;5;16;48;5;250m styler          [0;38;5;16;48;5;238m [0m
+[26C[0;38;5;16;48;5;250m stars           [0;38;5;16;48;5;248m [0m
+[26C[0;38;5;16;48;5;250m stplanr         [0;38;5;16;48;5;248m [0m
+[26C[0;38;5;16;48;5;250m stable          [0;38;5;16;48;5;248m [0m
+[26C[0;38;5;16;48;5;250m stabledist      [0;38;5;16;48;5;248m [0m
+[26C[0;38;5;16;48;5;250m stablelearner   [0;38;5;16;48;5;248m [7A[18D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;214ma'[0;38;5;252m)[0m
+[26C[0m [0;38;5;16;48;5;250m state.csv[0m
+[26C[0m [0;38;5;16;48;5;250m stars[10C[0;38;5;16;48;5;238m [0m
+[26C[0m [0;38;5;16;48;5;250m stable[9C[0;38;5;16;48;5;238m [0m
+[26C[0m [0;38;5;16;48;5;250m stabledist[0m
+[26C[0m [0;38;5;16;48;5;250m stablelearner[0m
+[26C[0m [0;38;5;16;48;5;250m stabs    [0m
+[26C[0m [0;38;5;16;48;5;250m stampr      [7A[13D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;214mte.csv'[0;38;5;252m)[0m
+[27C[0;38;5;102;48;5;231;7m state.csv      [A[10D[?7h[0m[?12l[?25h[?25l[?7l[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[33C[?7h[0m[?12l[?25h[?25l[?7l[C[?7h[0m[?12l[?25h[?25l[?7l[35D[0m[J[0;34mr$>[0m [0;38;5;252mstate [0;38;5;241m<-[0;38;5;252m [0;38;5;70mread.csv [0;38;5;252m([0;38;5;214m'state.csv'[0;38;5;252m)[35D[0m
+[J[?7h[0m[?12l[?25h[?2004l
+[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[4D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[4D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[4D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[4D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m
+
+
+
+
+
+
+[0m [7A[4C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mm[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252me[0m
+[6C[0;38;5;16;48;5;250m mean                   [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m mean.Date              [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m mean.default           [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m mean.difftime          [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m mean.POSIXct           [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m mean.POSIXlt           [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m median                 [0;38;5;16;48;5;248m [7A[25D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ma[0m
+[6C[0m [0;38;5;16;48;5;250m mean[0m
+[6C[0m [0;38;5;16;48;5;250m mean.Date[13C[0;38;5;16;48;5;238m [0m
+[6C[0m [0;38;5;16;48;5;250m mean.default[10C[0;38;5;16;48;5;238m [0m
+[6C[0m [0;38;5;16;48;5;250m mean.di[Cftime[9C[0;38;5;16;48;5;238m [0m
+[6C[0m [0;38;5;16;48;5;250m mean.POSIXct[10C[0;38;5;16;48;5;238m [0m
+[6C[0m [0;38;5;16;48;5;250m mean.POSIXlt[10C[0;38;5;16;48;5;238m [0m
+[6C[0m [0;38;5;16;48;5;250m measurementProtocol::[7A[22D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mn[0m
+[7C[0m [0;38;5;16;48;5;250m mean.Date[5C[0;38;5;16;48;5;238m [0m[K[0m
+[7C[0m [0;38;5;16;48;5;250m mean.default[2C[0;38;5;16;48;5;238m [0m[K[0m
+[7C[0m [0;38;5;16;48;5;250m mean.difftime[C[0;38;5;16;48;5;238m [0m[K[0m
+[7C[0m [0;38;5;16;48;5;250m mean.POSIXct[2C[0;38;5;16;48;5;238m [0m[K[0m
+[7C[0m [0;38;5;16;48;5;250m mean.POSIXlt  [0;38;5;16;48;5;238m [0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[7C[?7h[0m[?12l[?25h[8D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mmean[0m
+[8C[0;38;5;16;48;5;250m mean.Date     [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.default  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.difftime [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXct  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXlt  [0;38;5;16;48;5;238m [0m
+
+[0m [7A[8C[?7h[0m[?12l[?25h[8D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mmean[0m
+[8C[0;38;5;16;48;5;250m mean.Date     [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.default  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.difftime [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXct  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXlt  [0;38;5;16;48;5;238m [0m
+
+[0m [7A[8C[?7h[0m[?12l[?25h[8D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mmean[0m
+[8C[0;38;5;16;48;5;250m mean.Date     [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.default  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.difftime [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXct  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXlt  [0;38;5;16;48;5;238m [0m
+
+[0m [7A[8C[?7h[0m[?12l[?25h[8D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;252mmean[0m
+[8C[0;38;5;16;48;5;250m mean.Date     [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.default  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.difftime [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXct  [0;38;5;16;48;5;238m [0m
+[8C[0;38;5;16;48;5;250m mean.POSIXlt  [0;38;5;16;48;5;238m [0m
+
+[0m [7A[8C[?7h[0m[?12l[?25h[?25l[?7l[4D[0;38;5;70mmean[0;38;5;252m()[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[5A[8C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ms)[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt)[0m
+[11C[0;38;5;16;48;5;250m stack             [0;38;5;16;48;5;238m [0m
+[11C[0;38;5;16;48;5;250m stack.loss        [0;38;5;16;48;5;238m [0m
+[11C[0;38;5;16;48;5;250m stack.x           [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m stackloss         [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m standardGeneric   [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m stars             [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m start             [0;38;5;16;48;5;248m [7A[20D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ma)[0m
+[11C[0m [0;38;5;16;48;5;250m stack[0m
+[11C[0m [0;38;5;16;48;5;250m stack.lo[Cs[0m
+[11C[0m [0;38;5;16;48;5;250m stack.x[0m
+[11C[0m [0;38;5;16;48;5;250m stacklo[Cs[0m
+[11C[0m [0;38;5;16;48;5;250m standardGeneric[0m
+[11C[0m [0;38;5;16;48;5;250m stars[0m
+[11C[0m [0;38;5;16;48;5;250m start[7A[6D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt)[0m
+[12C[0m [0;38;5;16;48;5;250m stat.anova[6C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state    [7C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.abb[7C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.area[6C [0;38;5;16;48;5;248m [0m
+[12C[0m [0;38;5;16;48;5;250m state.cent[2C  [2C [0;38;5;16;48;5;248m [0m
+[12C[0m [0;38;5;16;48;5;250m state.division[2C [0;38;5;16;48;5;248m [0m
+[12C[0m [0;38;5;16;48;5;250m sta[Ce.name[6C [0;38;5;16;48;5;248m [7A[19D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252me)[0m
+[13C[0m [0;38;5;16;48;5;250m state.abb[6C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.area[5C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.center[3C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.division[C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.nam[C [4C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.region [2C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.x77[6C[0;38;5;16;48;5;248m [0m[K[7A[17D[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+[14C[0;38;5;16;48;5;250m state.abb      [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.area     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.center   [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.division [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.name     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.region   [0;38;5;16;48;5;238m [0m
+[0m              [0;38;5;16;48;5;250m state.x77      [0;38;5;16;48;5;248m [31D[7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+[14C[0;38;5;16;48;5;250m state.abb      [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.area     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.center   [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.division [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.name     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.region   [0;38;5;16;48;5;238m [0m
+[0m              [0;38;5;16;48;5;250m state.x77      [0;38;5;16;48;5;248m [31D[7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+[14C[0;38;5;16;48;5;250m state.abb      [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.area     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.center   [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.division [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.name     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.region   [0;38;5;16;48;5;238m [0m
+[0m              [0;38;5;16;48;5;250m state.x77      [0;38;5;16;48;5;248m [31D[7A[14C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+[14C[0;38;5;16;48;5;250m state.abb      [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.area     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.center   [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.division [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.name     [0;38;5;16;48;5;238m [0m
+[14C[0;38;5;16;48;5;250m state.region   [0;38;5;16;48;5;238m [0m
+[0m              [0;38;5;16;48;5;250m state.x77      [0;38;5;16;48;5;248m [31D[7A[14C[?7h[0m[?12l[?25h[?25l[?7l[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[14C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state)[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[?25l[?7l[C[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[5D[0;38;5;70mstate[0;38;5;252m()[?7h[0m[?12l[?25h[?25l[?7l[C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m=[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m?[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m^[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m_[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m:[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m;[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mM[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mç[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m°[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m§[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mç[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m+[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mè[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[6D[0;38;5;252mstate[0m[K[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m-[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;75m-.[0m
+[16C[0;38;5;16;48;5;250m ...                      [0;38;5;16;48;5;238m [0m
+[16C[0;38;5;16;48;5;250m ...elt                   [0;38;5;16;48;5;238m [0m
+[16C[0;38;5;16;48;5;250m ...length                [0;38;5;16;48;5;248m [0m
+[16C[0;38;5;16;48;5;250m ...names                 [0;38;5;16;48;5;248m [0m
+[16C[0;38;5;16;48;5;250m ..deparseOpts            [0;38;5;16;48;5;248m [0m
+[16C[0;38;5;16;48;5;250m ..getNamespace           [0;38;5;16;48;5;248m [0m
+[16C[0;38;5;16;48;5;250m .amatch_bounds           [0;38;5;16;48;5;248m [7A[27D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252m,,..òò..[0;38;5;241m-[0;38;5;252msw[0m
+[16C[0m           [C[0;38;5;16;48;5;250msweep[6C[0;38;5;16;48;5;238m [0m[K[0m
+[16C[0m           [C[0;38;5;16;48;5;250mswiss[6C[0;38;5;16;48;5;238m [0m[K[0m
+[16C[0m           [C[0;38;5;16;48;5;250mswitch[5C[0;38;5;16;48;5;238m [0m[K[0m
+[16C[0m           [C[0;38;5;16;48;5;250mswagger::[2C[0;38;5;16;48;5;238m [0m[K[0m
+[16C[0m           [0;38;5;16;48;5;250m sweep::[4C[0;38;5;16;48;5;238m [0m[K[0m
+[16C[0m           [0;38;5;16;48;5;250m swgee::[4C[0;38;5;16;48;5;238m [0m[K[0m
+[16C[0m           [0;38;5;16;48;5;250m swirl::[4C[0;38;5;16;48;5;248m [0m[K[7A[13D[?7h[0m[?12l[?25h[?25l[?7l[0m
+[0m [0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[6A[3C[?7h[0m[?12l[?25h[?25l[?7l[4D[0m [A[26C[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[2D[0;38;5;75m.[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[2D[0;38;5;241m-[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mà[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mò[0m
+[12C[0;38;5;16;48;5;250m x =      [0;38;5;16;48;5;238m [0m
+[12C[0;38;5;16;48;5;250m trim =   [0;38;5;16;48;5;238m [0m
+[12C[0;38;5;16;48;5;250m na.rm =  [0;38;5;16;48;5;238m [0m
+[12C[0;38;5;16;48;5;250m ...      [0;38;5;16;48;5;238m [4A[11D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ml[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[4A[12C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ml[0m
+[14C[0;38;5;16;48;5;250m llogistic:: [0;38;5;16;48;5;238m [A[14D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ma[0m
+[C[0m[K[A[14C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ms[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mj[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252md[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mj[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mc[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mn[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mv[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mb[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mm[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mz[?7h[0m[?12l[?25h[25D[J[0m[?7h[?2004l[2J[0;0H[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(sàòllasjdjcnvbmz[0m
+
+
+
+
+
+
+[0m [7A[25C[?7h[0m[?12l[?25h[?25l[?7l[0m
+
+
+
+
+
+
+[0m [0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0m [21A[25C[?7h[0m[?12l[?25h[?25l[?7l[0m
+[0m [3C[?7h[0m[?12l[?25h[?25l[?7l[4D[0m [A[24C[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ms[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt[0m
+[11C[0;38;5;16;48;5;250m stack             [0;38;5;16;48;5;238m [0m
+[11C[0;38;5;16;48;5;250m stack.loss        [0;38;5;16;48;5;238m [0m
+[11C[0;38;5;16;48;5;250m stack.x           [0;38;5;16;48;5;238m [0m
+[11C[0;38;5;16;48;5;250m stackloss         [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m standardGeneric   [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m stars             [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m start             [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m startsWith        [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m stat.anova        [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state             [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state.abb         [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state.area        [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state.center      [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state.division    [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state.name        [0;38;5;16;48;5;248m [0m
+[11C[0;38;5;16;48;5;250m state.region      [0;38;5;16;48;5;248m [16A[20D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252ma[0m
+[11C[0m [0;38;5;16;48;5;250m stack[0m
+[11C[0m [0;38;5;16;48;5;250m stack.lo[Cs[0m
+[11C[0m [0;38;5;16;48;5;250m stack.x[10C[0;38;5;16;48;5;238m [0m
+[11C[0m [0;38;5;16;48;5;250m stacklo[Cs[8C[0;38;5;16;48;5;238m [0m
+[11C[0m [0;38;5;16;48;5;250m standardGeneric[2C[0;38;5;16;48;5;238m [0m
+[11C[0m [0;38;5;16;48;5;250m stars[12C[0;38;5;16;48;5;238m [0m
+[11C[0m [0;38;5;16;48;5;250m start[12C[0;38;5;16;48;5;238m [0m
+[11C[0m [0;38;5;16;48;5;250m startsWith[7C[0;38;5;16;48;5;238m [0m
+[11C[0m [0;38;5;16;48;5;250m stat.anova[0m
+[11C[0m [0;38;5;16;48;5;250m state[0m
+[11C[0m [0;38;5;16;48;5;250m state.a[Cb[0m
+[11C[0m [0;38;5;16;48;5;250m state.area[0m
+[11C[0m [0;38;5;16;48;5;250m state.center[0m
+[11C[0m [0;38;5;16;48;5;250m state.division[0m
+[11C[0m [0;38;5;16;48;5;250m state.name[0m
+[11C[0m [0;38;5;16;48;5;250m state.region[16A[13D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt[0m
+[12C[0m [0;38;5;16;48;5;250m stat.anova[6C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state    [7C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.abb[7C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.area[6C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.cent[2C  [2C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.division[2C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m sta[Ce.name[6C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m sta[Ce.region[4C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m state.x77[7C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m statcanR::[6C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m statcheck::[5C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m statebins::[5C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m statespac[2C::[3C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m stationaRy:: [3C [0;38;5;16;48;5;238m [0m
+[12C[0m [0;38;5;16;48;5;250m statip:: [7C [0;38;5;16;48;5;248m [0m
+[12C[0m [0;38;5;16;48;5;250m statmod::  [5C [0;38;5;16;48;5;248m [16A[19D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252me[0m
+[13C[0m [0;38;5;16;48;5;250m state.abb[6C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.area[5C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.center[3C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.division[C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.nam[C [4C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.region [2C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m state.x77[6C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m statebins::[4C[0;38;5;16;48;5;238m [0m[K[0m
+[13C[0m [0;38;5;16;48;5;250m statespacer::  [0;38;5;16;48;5;238m [0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[16A[13C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mè[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[9A[14C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;241m+[0m
+[16C[0;38;5;16;48;5;250m x =      [0;38;5;16;48;5;238m [0m
+[16C[0;38;5;16;48;5;250m trim =   [0;38;5;16;48;5;238m [0m
+[16C[0;38;5;16;48;5;250m na.rm =  [0;38;5;16;48;5;238m [0m
+[16C[0;38;5;16;48;5;250m ...      [0;38;5;16;48;5;238m [4A[11D[?7h[0m[?12l[?25h[?25l[?7l[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[4A[14C[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mé[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[14D[J[0m[?7h[?2004l[6n[?2004h[?25l[0m[?7l[0m[J[0;34mr$>[0m [0;38;5;70mmean[0;38;5;252m(state[0m
+
+
+
+
+
+
+[0m [7A[14C[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[5D[0;38;5;252mmean[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[2D[0m[K[C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mq[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mu[0m
+[6C[0;38;5;16;48;5;250m quade.test       [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m quakes           [0;38;5;16;48;5;238m [0m
+[6C[0;38;5;16;48;5;250m quantile         [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quarters         [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quarters.Date    [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quarters.POSIXt  [0;38;5;16;48;5;248m [0m
+[6C[0;38;5;16;48;5;250m quartz           [0;38;5;16;48;5;248m [7A[19D[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mi[0m
+[6C[0m [0;38;5;16;48;5;250m quit     [3C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quickmapr::[C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quickPlot::[C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quickp[Cy::[2C[0;38;5;16;48;5;238m [0m[K[0m
+[6C[0m [0;38;5;16;48;5;250m quint::     [0;38;5;16;48;5;238m [0m[K[0m
+[C[0m[K[0m
+[C[0m[K[7A[6C[?7h[0m[?12l[?25h[?25l[?7l[0;38;5;252mt[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[0m
+[C[0m[K[5A[7C[?7h[0m[?12l[?25h[?25l[?7l[4D[0;38;5;70mquit[0;38;5;252m()[?7h[0m[?12l[?25h[?25l[?7l[C[?7h[0m[?12l[?25h[?25l[?7l[10D[0m[J[0;34mr$>[0m [0;38;5;70mquit[0;38;5;252m()[10D[0m
+[J[?7h[0m[?12l[?25h[?2004l[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ 

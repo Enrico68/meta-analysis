@@ -1,0 +1,25 @@
+
+clear;
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ 
+[?2004l[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ clear;
+[?2004l[H[2J[3J[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git commit
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.2023-10-13-file-1.term-0.term[m
+	[31m.2023-11-01-file-1.ipynb.sage-jupyter2[m
+	[31m.2023-11-01-terminal-1.term-0.term[m
+	[31m.2023-11-06-file-1.term-0.term[m
+	[31m.Statistica_Python.ipynb.sage-jupyter2[m
+	[31m2023-10-13-file-1.term[m
+	[31m2023-11-01-file-1.ipynb[m
+	[31m2023-11-01-terminal-1.term[m
+	[31m2023-11-06-file-1.term[m
+	[31mStatistica_Python.ipynb[m
+	[31mstate.csv[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ gi

@@ -1,0 +1,43 @@
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ git pull
+[?2004l                                                                  
+╔══════════════════════════════╦═════════════════════════════════╗
+║   ⚠   NETWORK DISABLED  ⚠    ║    ⚠   NO INTERNET ACCESS  ⚠    ║
+╠══════════════════════════════╩═════════════════════════════════╣
+║ This project does not have access to the internet.             ║
+║ Add a valid license in order to enable internet access.        ║
+║ Otherwise, you cannot pull from a Git repository, use cURL,    ║
+║ wget, download Python packages from PyPI, etc.                 ║
+║ Requests to load data will fail or hang indefinitely.          ║
+║                                                                ║
+║            https://cocalc.com/store/site-license               ║
+║                                                                ║
+╟────────────────────────────────────────────────────────────────╢
+║ Attempting to install software? It might already be available! ║
+║                https://cocalc.com/software                     ║
+╟────────────────────────────────────────────────────────────────╢
+║ Note: You can't become 'root' on CoCalc for security reasons.  ║
+╚════════════════════════════════════════════════════════════════╝
+                                                                  
+
+^C
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ ping z[Kyahoo.it
+[?2004l                                                                  
+╔══════════════════════════════╦═════════════════════════════════╗
+║   ⚠   NETWORK DISABLED  ⚠    ║    ⚠   NO INTERNET ACCESS  ⚠    ║
+╠══════════════════════════════╩═════════════════════════════════╣
+║ This project does not have access to the internet.             ║
+║ Add a valid license in order to enable internet access.        ║
+║ Otherwise, you cannot pull from a Git repository, use cURL,    ║
+║ wget, download Python packages from PyPI, etc.                 ║
+║ Requests to load data will fail or hang indefinitely.          ║
+║                                                                ║
+║            https://cocalc.com/store/site-license               ║
+║                                                                ║
+╟────────────────────────────────────────────────────────────────╢
+║ Attempting to install software? It might already be available! ║
+║                https://cocalc.com/software                     ║
+╟────────────────────────────────────────────────────────────────╢
+║ Note: You can't become 'root' on CoCalc for security reasons.  ║
+╚════════════════════════════════════════════════════════════════╝
+                                                                  
+[?2004h]0;~/meta-analysis[01;34m~/meta-analysis[00m$ 
